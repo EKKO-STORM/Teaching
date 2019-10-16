@@ -1,0 +1,50 @@
+preview
+
+
+SQL
+
+
+web
+
+database - 数据库
+server - 服务器 -->logic
+client - 前端 html css
+
+
+language
+
+data science
+python/r --->
+java/c/c++ --->
+
+
+recursion
+loop
+variable
+class
+
+
+algorithm
+
+
+
+public int[] twoSum(int[] nums, int target) {
+    for (int i = 0; i < nums.length; i++) {
+        for (int j = i + 1; j < nums.length; j++) {
+            if (nums[j] == target - nums[i]) {
+                return new int[] { i, j };
+            }
+        }
+    }
+    throw new IllegalArgumentException("No two sum solution");
+}
+
+
+
+
+function (3+5)*x
+function 3x +5x
+
+
+
+html
