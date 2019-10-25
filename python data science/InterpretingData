@@ -1,12 +1,8 @@
 import pandas as pd
 
 
- """DataFrame
+ """                            DataFrame
         Dataframe hold the types of data you might tink of as a table.
-
-
-
-
 """
 
 # save filepath to variable for easier access
@@ -17,3 +13,9 @@ melbourne_data = pd.read_csv(melbourne_file_path)
 
 #print a summary of the data in Melbourne database
 melbourne_data.describe()
+
+y = melbourne_data.Price
+
+X = melbourne_data[melbourne_features]
+
+X.describe()
