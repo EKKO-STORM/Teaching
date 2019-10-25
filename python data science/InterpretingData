@@ -19,3 +19,11 @@ y = melbourne_data.Price
 X = melbourne_data[melbourne_features]
 
 X.describe()
+
+#import the decisiontreeregressor
+from sklearn.tree import DecisionTreeRegressor
+
+melbourne_model = DecisionTreeRegressor(random_state=1)
+
+
+https://www.kaggle.com/dansbecker/your-first-machine-learning-model
