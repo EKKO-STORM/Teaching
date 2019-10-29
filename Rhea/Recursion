@@ -5,26 +5,66 @@ funct a
 
 
 function a  ()       python no { }
-{}
 
 
 -----------------------
+//
+/*
+hello this is ignoring the command for the rest
 
-y = x+3
+*/
+//int/double   ;
 
+double apple (int x )
+{
+  //value / pointer(object)  assign/copy
+  x = 3;
 
-int function(int x )
-int
+  y = 4;
+  z = 5;
 
+  x = y;
 
+  y = 8;
 
+  y = apple( x ); //run call
 
-
-
-
+  return y;
 }
+
+
+int x = 5;
+x = apple(x);
+
+
+
+Integer
+double
+
+
 
 
 ----------------------------
 variable
 string
+
+
+
+
+
+
+
+//recursion
+//---------------
+int banana(int x)
+{
+    x =  x + 3;   //x=8 = 5+3+3+3+3 27
+    if(x > 27)
+      return x;
+
+   return banana(x);
+
+}
+
+int x = 5
+banana(x)
